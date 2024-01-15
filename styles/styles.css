@@ -54,6 +54,7 @@ nav {
 section {
     max-width: 1170px;
     width: 80%;
+    /* min-height: 300px; */
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -175,31 +176,32 @@ align-items: center;
 
 .destination{
     margin-top: 100px;
+    height: 1100px;
     /* border: 1px solid black; */
 }
-.destination .text{
+ .text{
     width:44%;
     margin: 0 auto;
     text-align: center;
 
 }
-.destination .text h3{
+.text h3{
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.destination .text p{
+ .text p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
 }
-/* destination section */
 
 .grid-img{
   width: 100%;
   height: 300px;
+  
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -254,3 +256,33 @@ align-items: center;
     bottom: 45%;
     
 }
+/* why choose us section */
+ .icons-wrap{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .icons-item{
+    flex-basis: 573px;
+    /* border: 1px solid blue; */
+   padding-left: 30px;
+   padding-top: 30px;
+   border-radius: 16px;
+  
+ }
+ .icons-item h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 15px ;
+ }
+ .icons-item p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+ }
