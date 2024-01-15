@@ -1,0 +1,52 @@
+@media screen and (max-width:600px) {
+    /* header part */
+    nav{
+        width: 90%;
+        align-items: flex-start;
+        margin-left: 2px;
+    }
+    .nav-icon h2{
+        margin-left: 5px;
+        margin-bottom: 0;
+        height: 27px;
+    }
+    nav,
+    .travel-explore .explore
+    {
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    .nav-icon{
+        margin-bottom: 15px;
+        
+    }
+    .travel-explore h2{
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .travel-explore p,
+    .travel-explore .explore
+    
+    {
+        width: 90%;
+    }
+    .where-go{
+        width: 100%;
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+    #find-now{
+        justify-content: center;
+    }
+    .nav-list ul li {
+        display: none;
+    }
+    section{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    /* main part */
+}
