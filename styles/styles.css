@@ -63,6 +63,7 @@ section {
     height: 500px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -132,7 +133,6 @@ align-items: center;
     /* border: 1px solid black; */
     margin-top: 100px;
     display: flex;
-    /* height: 550px; */
     justify-content: space-between;
 }
 .description-part{
@@ -285,4 +285,86 @@ align-items: center;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
+ }
+
+ /* newsletter section */
+ .newsletter-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .input-field{
+    width: 39%;
+    padding: 40px 40px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+ }
+ .input-field h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+ }
+ .input-field p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+
+ .input-field input, .input-field button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+ }
+ .input-field input{
+    border: none;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+ .input-field button{
+    background: #FF5400;
+    border: none;
+    height: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .img-field{
+    width: 59%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 422px;
+    border-radius: 16px;
+    position: relative;
+ }
+ .img-field .travel-save h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    margin-top: 4px;
+ }
+ .img-field .travel-save p{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+ }
+ .img-field .travel-save{
+    border-radius: 16px;
+   background: #FF5400;
+   border: none;  
+   text-align: center; 
+   padding: 4px 10px;
+   position: absolute;
+   transform: rotate(-19.628deg);
+   right: 1%;
+   bottom: 9%;
  }

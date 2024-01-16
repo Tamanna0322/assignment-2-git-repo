@@ -126,5 +126,20 @@
    .icons-item{
         margin: 20px;
    }
+    /* newsletter section */
+    .newsletter-div{
+        flex-direction: column;
+    }
+    .input-field{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img-field{
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+       
+        
+    }
 
 }
