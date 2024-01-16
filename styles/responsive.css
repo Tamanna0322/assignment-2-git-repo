@@ -141,5 +141,18 @@
        
         
     }
+    /* footer section */
+    footer{
+        margin-top: 25px;
+    }
+    .footer-section{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .footer-section .footer-icon{
+        margin-bottom: 30px;
+    }
+    
 
 }
