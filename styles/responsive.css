@@ -1,14 +1,30 @@
 @media screen and (max-width:600px) {
     /* header part */
+
     nav{
         width: 90%;
         align-items: flex-start;
-        margin-left: 2px;
+      
+    }
+    .nav-icon #side-bar{
+        display: block;
+        margin-left: 55px;
+        justify-content: space-between;
+    
+    }
+    .nav-list ul li {
+        display: none;
+    }
+    .nav-icon{
+       
+        width: 90%;
+        margin: 0 auto;
     }
     .nav-icon h2{
         margin-left: 5px;
         margin-bottom: 0;
-        height: 27px;
+        /* height: 27px; */
+        font-size: 21.543px;
     }
     nav,
     .travel-explore .explore
@@ -17,10 +33,7 @@
         justify-content: center;
       
     }
-    .nav-icon{
-        margin-bottom: 15px;
-        
-    }
+
     .travel-explore h2{
         margin-top: 20px;
         font-size: 22px;
@@ -40,8 +53,9 @@
     #find-now{
         justify-content: center;
     }
-    .nav-list ul li {
+    .nav-list ul .home {
         display: none;
+
     }
     section{
         width: 100%;
@@ -126,6 +140,41 @@
    .icons-item{
         margin: 20px;
    }
+   /* bonus section */
+   .bonus{
+    margin-top: 20px;
+   }
+   .bonus-div{
+    flex-direction: column-reverse;
+   }
+   .bonus-div .bonus-child-div1{
+    margin-bottom: 20px;
+   }
+   .bonus-div .bonus-child-div2,   .bonus p  {
+     width: 90%;
+     justify-content: center;
+     margin: 0 auto;
+     margin-bottom: 30px;
+   }
+
+   /* optional section */
+   .discount{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .discount-banner, .discount-banner2{
+    display: flex;
+    align-items: end;
+   }
+   .deals{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+   }
+
+
     /* newsletter section */
     .newsletter-div{
         flex-direction: column;
